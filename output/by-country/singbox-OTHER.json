@@ -5,13 +5,18 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "194.87.59.12",
-      "server_port": 2085,
-      "uuid": "128314f6-f09a-426f-b758-b8e559c38ddb",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "188.114.97.6",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
@@ -19,14 +24,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
