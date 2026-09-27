@@ -5,26 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
-      "server": "176.108.246.58",
-      "server_port": 9889,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "80.240.18.227",
+      "server_port": 10051,
+      "uuid": "d161dcf1-fde2-44cc-b08d-d8944895e842",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU",
-          "short_id": ""
+          "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "grpc-tunnel"
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+        }
       }
     },
     {
@@ -32,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
