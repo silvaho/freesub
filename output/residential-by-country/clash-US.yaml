@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: 188.114.97.6
-  port: 2082
+  server: 104.21.5.173
+  port: 443
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
+  tls: true
+  servername: peekconfigg.vipserver1-39d.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /sync
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: peekconfigg.vipserver1-39d.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
