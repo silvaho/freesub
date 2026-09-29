@@ -53,16 +53,13 @@ proxies:
     public-key: AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg
     short-id: d345ad4657adeef9
   servername: google.com
-  client-fingerprint: ''
+  client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
-  server: 65.109.249.114
-  port: 80
+  server: smart.avenone.ir
+  port: 1085
   udp: true
   type: vless
-  uuid: 794990ea-dc34-4eff-8a43-020a92fec381
-  network: ws
-  ws-opts:
-    path: /
+  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
 proxy-groups:
 - name: PROXIES
   type: select

@@ -76,7 +76,7 @@
         "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -88,13 +88,9 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-      "server": "65.109.249.114",
-      "server_port": 80,
-      "uuid": "794990ea-dc34-4eff-8a43-020a92fec381",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
+      "server": "smart.avenone.ir",
+      "server_port": 1085,
+      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
     },
     {
       "type": "selector",
