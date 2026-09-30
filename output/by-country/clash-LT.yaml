@@ -5,28 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
-  server: 195.238.126.20
-  port: 9011
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
-  server: 104.17.213.101
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
-  tls: true
-  servername: d39333476.pages.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /zip/items/ads
-    headers:
-      Host: d39333476.pages.dev
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
   server: 94.176.234.161
   port: 443
   udp: true
@@ -45,15 +23,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
-  - 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
 rules:
 - MATCH,PROXIES
