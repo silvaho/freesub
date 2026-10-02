@@ -4,11 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "77.42.20.51",
-      "server_port": 1085,
-      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
+      "server": "144.31.232.216",
+      "server_port": 443,
+      "password": "06e88dd6-e264-4981-8c26-d7ab17348ab2",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi01.clgate.network",
+        "insecure": false
+      }
     },
     {
       "type": "vless",
@@ -31,16 +36,11 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "144.31.232.216",
-      "server_port": 443,
-      "password": "06e88dd6-e264-4981-8c26-d7ab17348ab2",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi01.clgate.network",
-        "insecure": true
-      }
+      "server": "77.42.20.51",
+      "server_port": 1085,
+      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
     },
     {
       "type": "selector",

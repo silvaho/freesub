@@ -5,11 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 77.42.20.51
-  port: 1085
+  server: 144.31.232.216
+  port: 443
   udp: true
-  type: vless
-  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
+  type: hysteria2
+  password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
+  sni: fi01.clgate.network
+  skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 95.216.27.15
   port: 2053
@@ -23,13 +25,11 @@ proxies:
   servername: www.google.com
   client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 144.31.232.216
-  port: 443
+  server: 77.42.20.51
+  port: 1085
   udp: true
-  type: hysteria2
-  password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
-  sni: fi01.clgate.network
-  skip-cert-verify: true
+  type: vless
+  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
 proxy-groups:
 - name: PROXIES
   type: select
