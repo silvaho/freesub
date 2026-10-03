@@ -6,17 +6,13 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.13.77",
+      "server": "v2ray.aizgl.com",
       "server_port": 443,
       "uuid": "4b21fbc7-00c2-4665-9788-02153832f9e5",
       "tls": {
         "enabled": true,
         "server_name": "v2ray.aizgl.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "ws",
