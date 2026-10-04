@@ -5,24 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-      "server": "94.143.231.146",
-      "server_port": 443,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
-      "tls": {
-        "enabled": true,
-        "server_name": "sub.merky.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "hikvision-plus.com",
+      "server_port": 2052,
+      "uuid": "a2c57a6c-dacb-44d1-9055-fb42d4c888a5",
       "transport": {
         "type": "ws",
-        "path": "/merky-connect/de6/",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "sub.merky.top"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
@@ -31,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
