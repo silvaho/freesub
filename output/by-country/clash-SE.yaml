@@ -5,20 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 94.143.231.146
-  port: 443
+  server: psf-2.weedly.top
+  port: 80
   udp: true
   type: vless
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  tls: true
-  servername: sub.merky.top
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 33016f3d-8509-493c-bd8b-d26447d48135
   network: ws
   ws-opts:
-    path: /merky-connect/de6/
+    path: /
     headers:
-      Host: sub.merky.top
+      Host: stigmata.ir
 proxy-groups:
 - name: PROXIES
   type: select
